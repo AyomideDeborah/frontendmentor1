@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: auto;
+}
+.card {
+  margin: auto;
+  width: 300px;
+  margin-top: 80px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+img {
+  padding: 10px;
+  border-radius: 20px;
+  width: 277px;
+}
+.card-body {
+  padding: 20px;
+  font-size: 15px;
+}
+h2 {
+  font-weight: 700;
+  color: hsl(217, 45%, 22%);
+}
+p {
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  padding: 0 10px;
+}
+@media only screen and (max-width: 375px) {
+  .card {
+    margin: auto;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
